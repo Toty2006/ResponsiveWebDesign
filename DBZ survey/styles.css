@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa3%2Fbe%2F9a%2Fa3be9a98cea99c0e41baf7e9ff8b4783.jpg&f=1&nofb=1&ipt=e0f5977ea1c73b823ec006b5d69715585fe6980884bebde0bc83efd324fe1573&ipo=images");
+  
+  
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+fieldset {
+  border-color: rgb(0,200,0);
+  border-radius: 5px;
+}
+
+fielset {
+  width: 80%;
+  margin: auto;
+}
+
+#signature {
+  text-align: right;
+}
+
+#survey-form label {
+  display: block;
+}
+
+.favourite-saga {
+  display: inline;
+}
+
+#submit {
+  border-radius: 10px;
+  background: radial-gradient(circle, #ffef00, #df8620, #fd1d1d);
+  box-shadow: 5px 5px 20px orange;
+}
+
+textarea {
+  border-radius: 5px; 
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey-Form-DBZ</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1 id="title">Dragon Ball Z Survey Form</h1>
+
+    <p id="description">"I do not fear this new chalenge, rather like a true warrior i will rise to meet it."</p>
+    <p id="signature">- Vegeta</p>
+
+    <form id="survey-form">
+
+      <fieldset>
+
+        <label id="name-label">Name: <input id="name" type="text" placeholder="Son Gohan" required /></label>
+
+        <label id="email-label">e-mail: <input id="email" type="email" placeholder="great_sayaman@capcorp.com" required /></label>
+
+        <label id="number-label">age: <input id="number" type="number" placeholder="17" min="13" max="120" /></label>
+
+      </fieldset>
+
+      <fieldset>
+
+        <h2>Whats your favourite saga in DBZ?</h2>
+
+         <label><input type="radio" name="favourite-saga" class="favourite-saga" value="sayaman" checked /> Sayaman Saga</label>
+          <label><input type="radio" name="favourite-saga" class="favourite-saga" value="cell" /> Cell Saga</label>
+          <label><input type="radio" name="favourite-saga" class="favourite-saga" value="buu" /> Buu Saga</label>
+          <h3>why was it your favourite?</h3>
+
+          <select id="dropdown" requiered>
+
+         <option desabled selected value> Select your option</option>    
+         <option> It has the best villain</option>
+         <option> It's Goku's best era</option>
+         <option> It's Gohan's best era</option>
+         <option> It's Vegeta's best era</option>
+         <option> It has the best story line</option>
+         <option> It has the best transformations</option>
+        </select>
+
+        <h3>check the box if you agree:</h3>
+        <label><input type="checkbox" value="SS3-ew"
+        name="SS3" /> Super Sayan 3 is overvalued</label>
+        <label><input type="checkbox" value="SS3-yay" name="SS3" /> Super Sayan 3 is the best</label>
+
+        <label><h3>Tell us about your favourite moment</h3><textarea id="w3review" name="w3review" rows="4" cols="40" placeholder="My favourite moment in DBZ is... Because..."></textarea>
+
+
+      </fieldset>
+      
+      <fieldset>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="terms" /> I accept the terms and conditions</label>
+
+          <input type="submit" value=Submit id="submit" />
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>
